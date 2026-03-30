@@ -1,0 +1,129 @@
+/* =========================
+   PALETA DE CORES - UniFECAF
+========================= */
+:root {
+    --azul-principal: #005A96;
+    --verde-destaque: #22B36B;
+    --preto-fundo: #0D0D0D;
+    --branco: #FFFFFF;
+    --cinza-claro: #F2F2F2;
+}
+
+/* =========================
+   RESET BÁSICO
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   ESTILO GERAL DA PÁGINA
+========================= */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   CABEÇALHO
+========================= */
+.topo {
+    background-color: var(--azul-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+}
+
+/* Título do site */
+.titulo-site h1 {
+    color: var(--branco);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* =========================
+   MENU DE NAVEGAÇÃO
+========================= */
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* Links do menu */
+.menu a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.menu a:hover {
+    color: var(--verde-destaque);
+}
+/* =========================
+   BANNER PRINCIPAL
+========================= */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    background-color: var(--cinza-claro);
+    gap: 40px;
+    min-height: 320px;
+}
+
+/* Texto do banner */
+.banner-texto {
+    width: 50%;
+}
+
+.banner-texto h2 {
+    font-size: 38px;
+    color: var(--azul-principal);
+    margin-bottom: 20px;
+}
+
+.banner-texto p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* Botão do banner */
+.botao-banner {
+    display: inline-block;
+    background-color: var(--verde-destaque);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao-banner:hover {
+    background-color: var(--azul-principal);
+}
+
+/* Área da imagem */
+.banner-imagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Imagem do banner */
+.banner-imagem img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
