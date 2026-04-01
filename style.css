@@ -127,3 +127,75 @@ body {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+/* =========================
+   SEÇÃO SOBRE A BIBLIOTECA
+========================= */
+.sobre-biblioteca {
+    padding: 80px 20px;
+    background-color: var(--branco);
+}
+
+.sobre-biblioteca h2 {
+    font-size: 42px;
+    color: var(--azul-principal);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Conteúdo principal */
+.sobre-conteudo {
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Textos laterais */
+.texto-esquerda,
+.texto-direita {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    max-width: 320px;
+}
+
+/* Imagem central */
+.imagem-centro {
+    flex: 0 0 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-centro img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Galeria inferior */
+.galeria-biblioteca {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.galeria-biblioteca img {
+    width: 170px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.galeria-biblioteca img:hover {
+    transform: scale(1.05);
+}
