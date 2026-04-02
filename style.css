@@ -430,3 +430,17 @@ body {
         order: 1;
     }
 }
+/* =========================
+   RODAPÉ
+========================= */
+.rodape {
+    background-color: var(--azul-principal);
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.rodape p {
+    color: var(--branco);
+    font-size: 16px;
+    margin: 0;
+}
